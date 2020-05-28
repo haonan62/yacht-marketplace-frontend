@@ -1,6 +1,6 @@
 {
-  "name": "Sharetribe Flex Template Demo",
-  "description": "Sharetribe Flex Template Demo - Saunatime!",
+  "name": "Discovery Sailing Asia",
+  "description": "Discovery Sailing Asia, Yacht booking platform",
   "keywords": ["node", "react"],
   "repository": "https://github.com/sharetribe/ftw-daily/",
   "env": {
