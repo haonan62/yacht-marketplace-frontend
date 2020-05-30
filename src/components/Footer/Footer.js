@@ -127,11 +127,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Turku%2C%20Finland&bounds=60.5304531%2C22.38197820000005%2C60.33361189999999%2C22.066440100000023&origin=60.4518126%2C22.26663020000001',
+                        '?address=Malaysia&bounds=7.55668193461427%2C119.375409992174%2C0.85382000305218%2C99.5404600007008',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTurku" />
+                    <FormattedMessage id="Footer.searchMalaysia" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -139,11 +139,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Tampere%2C%20Finland&bounds=61.83657359999999%2C24.118384099999957%2C61.42728169999999%2C23.542201299999988&origin=61.4977524%2C23.760953500000028',
+                        '?address=Indonesia&bounds=6.18124598740633%2C141.022151999997%2C-11.0917989658297%2C94.9073060005655',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTampere" />
+                    <FormattedMessage id="Footer.searchIndonesia" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -151,11 +151,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Oulu%2C%20Finland&bounds=65.5643426%2C26.770696000000044%2C64.8443082%2C24.114941999999928&origin=65.0120888%2C25.465077199999996',
+                        '?address=Hong%20Kong&bounds=22.5735499907553%2C114.504522269355%2C22.1343230695576%2C113.773493896307',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchOulu" />
+                    <FormattedMessage id="Footer.searchHongKong" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -163,11 +163,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Rukatunturi%2C%20Kuusamo%2C%20Finland&bounds=66.1699707%2C29.167735499999935%2C66.1609529%2C29.13572069999998&origin=66.1654622%2C29.151728100000014',
+                        '?address=People%27s%20Republic%20of%20China&bounds=53.560711991333%2C134.77281099468%2C18.0608510186141%2C73.4998560298202',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchRuka" />
+                    <FormattedMessage id="Footer.searchChina" />
                   </NamedLink>
                 </li>
               </ul>
@@ -179,11 +179,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Kuopio%2C%20Finland&bounds=63.40340329999999%2C28.457629300000008%2C62.592254%2C26.890028099999995&origin=62.89796999999999%2C27.67817249999996',
+                        '?address=United%20States%20of%20America&bounds=71.5407249966462%2C-66.8854430000034%2C18.7655620028831%2C-179.9',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchKuopio" />
+                    <FormattedMessage id="Footer.searchUS" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -191,11 +191,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Mikkeli%2C%20Finland&bounds=62.1990357%2C27.900274999999965%2C61.20955799999999%2C26.82762809999997&origin=61.68872709999999%2C27.27214570000001',
+                        '?address=Italy&bounds=47.0923219927974%2C18.6203599992633%2C35.3925640007811%2C6.6271180208729',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchMikkeli" />
+                    <FormattedMessage id="Footer.searchItaly" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -203,11 +203,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Espoo%2C%20Finland&bounds=60.3636105%2C24.8505715%2C60.0499087%2C24.499656500000015&origin=60.2054911%2C24.655899999999974',
+                        '?address=France&bounds=51.1840749958%2C9.6597169884%2C41.3011210083%2C-5.2389389958',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchEspoo" />
+                    <FormattedMessage id="Footer.searchFrance" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -215,11 +215,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Vantaa%2C%20Finland&bounds=60.40113659999999%2C25.19306240000003%2C60.23714200000001%2C24.746512199999984&origin=60.29335239999999%2C25.037768599999936',
+                        'address=United%20Kingdom&bounds=60.9454539947733%2C1.8673999944869%2C49.8026640114418%2C-8.71865998255999',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchVantaa" />
+                    <FormattedMessage id="Footer.searchUK" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -227,11 +227,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Ahvenanmaan%20saaristo%2C%20Åland%20Islands&bounds=60.87664400000001%2C21.34532850000005%2C59.45425059999999%2C19.94061499999998&origin=59.8994405%2C20.593996100000027',
+                        '?address=Germany&bounds=55.0845585986239%2C15.0414289933107%2C47.2704600013399%2C5.86600206371811',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchAhvenanmaa" />
+                    <FormattedMessage id="Footer.searchGermany" />
                   </NamedLink>
                 </li>
               </ul>

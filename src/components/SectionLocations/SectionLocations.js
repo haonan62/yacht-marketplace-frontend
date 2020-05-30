@@ -62,12 +62,12 @@ const SectionLocations = props => {
         {locationLink(
           'Thailand',
           thaiImage,
-          '?address=Rovaniemi%2C%20Finland&bounds=67.18452510000002%2C27.32667850000007%2C66.1553745%2C24.736871199999996&origin=66.50394779999999%2C25.729390599999988'
+          '?address=Thailand&bounds=20.4649449359772%2C105.636713%2C5.61341513823121%2C97.3435210006002'
         )}
         {locationLink(
           'China',
           chinaImage,
-          '?address=Ruka%2C%20Finland&bounds=66.1704578%2C29.14246849999995%2C66.1614402%2C29.110453699999994&origin=66.16594940000002%2C29.12646110000003'
+          '?address=People%27s%20Republic%20of%20China&bounds=53.560711991333%2C134.77281099468%2C18.0608510186141%2C73.4998560298202'
         )}
       </div>
     </div>

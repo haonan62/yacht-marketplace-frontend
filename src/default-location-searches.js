@@ -16,31 +16,31 @@ export default [
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-malaysia',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Malaysia',
+      bounds: new LatLngBounds(new LatLng(7.55668193461427, 119.375409992174), new LatLng(0.85382000305218, 99.5404600007008)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-Indonesia',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Indonesia',
+      bounds: new LatLngBounds(new LatLng(6.18124598740633, 141.022151999997), new LatLng(-11.0917989658297, 94.9073060005655)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-HK',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'HongKong',
+      bounds: new LatLngBounds(new LatLng(22.5735499907553, 114.504522269355), new LatLng(22.1343230695576, 113.773493896307)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-CN',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'China',
+      bounds: new LatLngBounds(new LatLng(53.560711991333, 134.77281099468), new LatLng(18.0608510186141, 73.4998560298202)),
     },
   },
 ];
