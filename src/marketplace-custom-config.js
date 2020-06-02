@@ -38,10 +38,17 @@ export const amenities = [
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
+  // { key: 'smoke', label: 'Smoke' },
+  { key: 'electric_yacht', label: 'Electric Yacht' },
+  // { key: 'wood', label: 'Wood' },
+  { key: 'sailing_yacht', label: 'Sailing Yacht' },
+  { key: 'motor_yacht', label: 'Motor Yacht' },
+  { key: 'gulet_yacht', label: 'Gulet Yacht' },
+  { key: 'luxury_yacht', label: 'Luxury Yacht' },
+  { key: 'sports_yacht', label: 'Sports Yacht' },
+  { key: 'catamaran_yacht', label: 'Catamaran Yacht' },
   { key: 'other', label: 'Other' },
+  
 ];
 
 // Price filter configuration
