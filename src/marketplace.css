@@ -23,7 +23,7 @@
   --backgroundImage: {
     /* Gradient direction and overlaying the black color on top of the image for better readability */
     background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-      url('../../assets/alpha_marine_pic.jpg');
+      url('../../assets/asset_9.png');
 
     /* Add loading color for the div */
     background-color: var(--matterColor);
@@ -42,9 +42,9 @@
 
   /* ================ Colors ================ */
 
-  --marketplaceColor: #00B3DF;
-  --marketplaceColorLight: #04AFAF;
-  --marketplaceColorDark: #010057;
+  --marketplaceColor: #127681;
+  --marketplaceColorLight: #f4f6ff;
+  --marketplaceColorDark: #10375C;
 
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23c0392b;

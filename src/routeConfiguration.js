@@ -23,6 +23,7 @@ import {
   StyleguidePage,
   TermsOfServicePage,
   TransactionPage,
+  BookingManagerPage,
 } from './containers';
 
 // routeConfiguration needs to initialize containers first
@@ -151,6 +152,12 @@ const routeConfiguration = () => {
       path: '/u',
       name: 'ProfileBasePage',
       component: RedirectToLandingPage,
+    },
+    //test bookingmagerplugin
+    {
+      path: '/bookingmanager',
+      name: 'BookingManagerPage',
+      component: BookingManagerPage,
     },
     {
       path: '/u/:id',

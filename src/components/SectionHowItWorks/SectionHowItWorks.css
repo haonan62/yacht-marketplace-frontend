@@ -32,15 +32,15 @@
   margin-bottom: 18px;
 
   @media (--viewportMedium) {
-    margin-top: 21px;
-    margin-bottom: 18px;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
 }
 
 .createListingLink {
-  margin-top: 36px;
+  margin-top: 6px;
 
   @media (--viewportMedium) {
-    margin-top: 52px;
+    margin-top: 12px;
   }
 }

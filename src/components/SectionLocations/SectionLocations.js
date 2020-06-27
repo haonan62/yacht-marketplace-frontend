@@ -11,7 +11,9 @@ import css from './SectionLocations.css';
 // import helsinkiImage from './images/location_helsinki.jpg';
 // import rovaniemiImage from './images/location_rovaniemi.jpg';
 // import rukaImage from './images/location_ruka.jpg';
-
+import malayImage from './images/malay_temp.jpg';
+import taiwanImage from './images/location_taiwan.jpg'
+import hongkongImage from './images/yacht_location_hongkong.jpg';
 import singaporeImage from './images/yacht_location_singapore.jpg';
 import thaiImage from './images/yacht_location_thailand.jpg';
 import chinaImage from './images/yacht_location_china.jpg';
@@ -68,6 +70,21 @@ const SectionLocations = props => {
           'China',
           chinaImage,
           '?address=People%27s%20Republic%20of%20China&bounds=53.560711991333%2C134.77281099468%2C18.0608510186141%2C73.4998560298202'
+        )}
+        {locationLink(
+          'HongKong',
+          hongkongImage,
+          '?address=HongKong&bounds=22.5735499907553%2C114.504522269355%2C22.1343230695576%2C113.773493896307'
+        )}
+        {locationLink(
+          'TaiWan',
+          taiwanImage,
+          '?address=Taiwan&bounds=26.4734819995328%2C122.106196095058%2C21.8038086056393%2C118.124999019637'
+        )}
+        {locationLink(
+          'Malaysia',
+          malayImage,
+          '?address=Malaysia&bounds=7.47440619999843%2C119.369520698379%2C0.854587010151078%2C99.5409101022056'
         )}
       </div>
     </div>
