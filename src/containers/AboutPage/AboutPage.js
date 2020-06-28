@@ -2,6 +2,8 @@ import React from 'react';
 import config from '../../config';
 import { twitterPageURL } from '../../util/urlHelpers';
 import { StaticPage, TopbarContainer } from '../../containers';
+//this page may contain certain testing playgrounds until i made a testing page, dun really think react is ideal for small scale projects:(
+// import { BookingDatesForm } from '../../forms';
 import {
   LayoutSingleColumn,
   LayoutWrapperTopbar,
@@ -14,6 +16,15 @@ import {
 import css from './AboutPage.css';
 import image from './sample1.jpeg';
 
+// const BookingPanel = props => {
+//   const {
+//     isOwnListing,
+//     unitType,
+//     onSubmit,
+//     timeSlots,
+//     fetchTimeSlotsError,
+//   } = props;
+// }
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
   const siteTwitterPage = twitterPageURL(siteTwitterHandle);
@@ -81,6 +92,17 @@ const AboutPage = () => {
               </p> */}
             </div>
           </div>
+          {/* <BookingDatesForm
+            className={css.bookingForm}
+            formId="BookingPanel"
+            submitButtonWrapperClassName={css.bookingDatesSubmitButtonWrapper}
+            unitType={unitType}
+            onSubmit={onSubmit}
+            price={price}
+            isOwnListing={isOwnListing}
+            timeSlots={timeSlots}
+            fetchTimeSlotsError={fetchTimeSlotsError}
+          /> */}
         </LayoutWrapperMain>
 
         <LayoutWrapperFooter>

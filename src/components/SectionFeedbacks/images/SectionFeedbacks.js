@@ -6,17 +6,17 @@ import { lazyLoadWithDimensions } from '../../util/contextHelpers';
 
 import { NamedLink } from '../../components';
 
-import css from './SectionLocations.css';
+import css from './SectionFeedbacks.css';
 
-// import helsinkiImage from './images/location_helsinki.jpg';
-// import rovaniemiImage from './images/location_rovaniemi.jpg';
-// import rukaImage from './images/location_ruka.jpg';
+
 import malayImage from './images/malay_temp.jpg';
 import taiwanImage from './images/location_taiwan.jpg'
 import hongkongImage from './images/yacht_location_hongkong.jpg';
 import singaporeImage from './images/yacht_location_singapore.jpg';
 import thaiImage from './images/yacht_location_thailand.jpg';
 import chinaImage from './images/yacht_location_china.jpg';
+
+
 
 class LocationImage extends Component {
   render() {
@@ -71,7 +71,6 @@ const SectionLocations = props => {
           chinaImage,
           '?address=People%27s%20Republic%20of%20China&bounds=53.560711991333%2C134.77281099468%2C18.0608510186141%2C73.4998560298202'
         )}
-        
         {locationLink(
           'HongKong',
           hongkongImage,

@@ -6,6 +6,18 @@ import classNames from 'classnames';
 import { NamedLink } from '../../components';
 
 import css from './SectionHowItWorks.css';
+//
+// import { lazyLoadWithDimensions } from '../../util/contextHelpers';
+// import testImage from './test.jpg';
+// class testImageModel extends Component {
+//   render() {
+//     const { alt, ...rest } = this.props;
+//     return <img alt={alt} {...rest} />;
+//   }
+// }
+// const LazyImage = lazyLoadWithDimensions(testImageModel);
+
+//
 
 const SectionHowItWorks = props => {
   const { rootClassName, className } = props;
@@ -24,6 +36,7 @@ const SectionHowItWorks = props => {
           <h2 className={css.stepTitle}>
             <FormattedMessage id="SectionHowItWorks.part1Title" />
           </h2>
+          
           <p>
             <FormattedMessage id="SectionHowItWorks.part1Text" />
           </p>

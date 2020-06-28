@@ -749,6 +749,7 @@
   "SectionHowItWorks.titleLineTwo": "(Enjoy your yacht experience: Now kick back and relax, we’ll handle the rest).",
   "SectionLocations.listingsInLocation": "{location}",
   "SectionLocations.title": "Where will you voyage to next?",
+  "SectionFeedbacks.title": "What sailors say about us.",
   "SelectMultipleFilter.labelSelected": "{labelText} • {count}",
   "SelectMultipleFilterPlainForm.labelSelected": "{labelText} • {count}",
   "SelectSingleFilter.popupClear": "Clear",

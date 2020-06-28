@@ -176,3 +176,4 @@ export { default as TopbarMobileMenu } from './TopbarMobileMenu/TopbarMobileMenu
 export { default as TransactionPanel } from './TransactionPanel/TransactionPanel';
 
 
+export { default as SectionFeedbacks } from './SectionFeedbacks/SectionFeedbacks';
