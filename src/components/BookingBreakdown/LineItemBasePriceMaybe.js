@@ -2,6 +2,8 @@ import React from 'react';
 import { FormattedMessage, intlShape } from '../../util/reactIntl';
 import { formatMoney } from '../../util/currency';
 import { LINE_ITEM_NIGHT, LINE_ITEM_DAY, propTypes } from '../../util/types';
+//api call for directly getting the value of yacht prices
+// import {fetch as fetchPolyfill} from 'whatwg-fetch'
 
 import css from './BookingBreakdown.css';
 
@@ -25,7 +27,16 @@ const LineItemBasePriceMaybe = props => {
   const quantity = unitPurchase ? unitPurchase.quantity.toString() : null;
   const unitPrice = unitPurchase ? formatMoney(intl, unitPurchase.unitPrice) : null;
   const total = unitPurchase ? formatMoney(intl, unitPurchase.lineTotal) : null;
-
+  // var test=0;
+//
+// fetch('http://dummy.restapiexample.com/api/v1/employees')
+//   .then(function(response) {
+//     response.json().then(function(data) {
+//       test=parseInt(data['data'][0]['employee_salary']);
+//     });
+    
+//   })
+//
   return quantity && total ? (
     <div className={css.lineItem}>
       <span className={css.itemLabel}>
