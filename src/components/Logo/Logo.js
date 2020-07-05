@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import config from '../../config';
 // import IconLogo from './IconLogo';
 import LogoImage from './trans_logo.png';
-import MobileLogoImage from './small_tzeyo_logo.png';
+import MobileLogoImage from './trans_logo.png';
 import css from './Logo.css';
 
 const Logo = props => {
